@@ -1,0 +1,422 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #777;
+}
+
+h2 {
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  margin-top: 100px;
+}
+
+.main_nav {
+  position: fixed;
+  margin-left: -144px;
+  overflow: hidden;
+  z-index: 100;
+  -webkit-transition: all 500ms; /* Safari */
+  transition: all 500ms;
+}
+
+.main_nav ul {
+  float: left;
+  background: #f3f3f3;
+  border-right: 4px solid black;
+  border-bottom: 8px solid black;
+}
+
+.main_nav ul a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+   width: 140px;
+   box-sizing: border-box;
+   display: block;
+   letter-spacing: 5px;
+   font-size: 14px;
+   font-weight: 300;
+}
+
+.main_nav ul a:hover {
+  color: #888;
+  border-left: 4px solid #2D1C3B;
+  font-weight: normal;
+}
+
+.main_nav ul a:active {
+  background: #777;
+}
+
+.main_nav ul li {
+  list-style-type: none;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.nav_toggle {
+  color: #f5f5f5;
+  cursor: pointer;
+  float: left;
+  padding: 15px;
+  background: black;
+  border-bottom-right-radius: 25px;
+}
+
+.nav_toggle:hover {
+  color: #888;
+}
+
+header {
+  width: 100%;
+  height: 940px;
+  background: url('../img/SB_header.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  float: left;
+}
+
+.head_logo {
+  background: url('../img/sb_logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  padding: 40px 0px;
+  margin-top: 40px;
+}
+
+.arrowws {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.arrowws a {
+  font-size: 30px;
+}
+
+.down_arrow {
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.down_arrow:hover {
+  color: #888;
+}
+
+#about {
+  width: 100%;
+  float: left;
+  background: #2D1C3B; 
+  background-image: url('../img/ink_text.png');
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 100px; 
+}
+
+#about h2 {
+  color: #ccc;
+  margin-bottom: 100px;
+}
+
+.main_about_con {
+  width: 100%;
+  float: left;
+}
+
+.about_container {
+  width: 95%;
+  max-width: 1400px;
+  border-top: 3px solid #f5f5f5;
+  display: block;
+}
+
+.about_sect{
+  width: 49%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.about_details {
+  float: left;
+}
+
+.about_img {
+  float: right;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.about_detail {
+  padding: 3px;
+  color: #f5f5f5;
+  margin-bottom: 10px;
+}
+
+.about_detail h3 {
+  letter-spacing: 3px;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.about_detail p {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #9B9B9B;
+}
+
+.pro_img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #888;
+  background-image: url('../img/sean.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+}
+
+.contact_info {
+  width: 100%;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.about_img p {
+  width: 100%;
+  text-align: center;
+  color: #f4f4f4;
+  padding: 20px 0px;
+}
+
+#work {
+  width: 100%;
+  background: #333;      
+  float: left;
+}
+
+#work h2 {
+  color: #f5f5f5;
+  padding-bottom: 80px;
+}
+
+.work_container {
+  width: 92%;
+  
+  -webkit-box-shadow: 0px 9px 18px -10px rgba(8,8,8,1);
+-moz-box-shadow: 0px 9px 18px -10px rgba(8,8,8,1);
+box-shadow: 0px 9px 18px -10px rgba(8,8,8,1);
+}
+
+.work_example {
+  width: 33.333333333333333333333%;
+  background: #444;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+}
+
+.work_in_container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  -webkit-transition: all 500ms; /* Safari */
+  transition: all 500ms;
+}
+
+#work1 {
+  background-image: url('../img/work1.png');
+}
+
+#work2 {
+  background-image: url('../img/work2.jpg');
+}
+
+#work3 {
+  background-image: url('../img/work3.jpg');
+}
+
+
+.work_in_container:hover {
+  -ms-transform: scale(1.25,1.25); /* IE 9 */
+  -webkit-transform: scale(1.25,1.25); /* Safari */
+  transform: scale(1.25,1.25); /* Standard syntax */
+}
+
+.work_slider {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  margin-left: -100%;
+  -webkit-transition: all 500ms; /* Safari */
+  transition: all 500ms;
+}
+
+.work_in_container:hover > .work_slider {
+  margin-left: 0;
+}
+
+.work_title {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  color: #f1f1f1;
+  float: left;
+}
+
+.work_p {
+  width: 100%;
+  text-align: center;
+  color: #ccc;
+  background: #111;
+  float: left;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+
+#contact_sct {
+  background: #333;
+  float: left;
+  width: 100%;
+}
+
+#contact_sct h2 {
+  padding-bottom: 80px;
+  color: #f5f5f5;
+}
+
+.contact_container {
+  width: 100%;
+  text-align: center;
+}
+
+.contact_container a {
+  color: #f5f5f5;
+}
+
+.contact_container a:hover {
+  color: #777;
+}
+
+.social_btns {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 42px;
+  display: inline-block;
+  margin: 5%;
+}
+
+.con_sect {
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  color: #f5f5f5;
+  background: rgba(45, 28, 59, 0.9);
+  line-height: 140px;
+}
+
+footer {
+  background: #2D1C3B; 
+  color: #f5f5f5;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px;
+  float: left;
+  font-family: arial, sans-serif;
+  font-weight: 200;
+}
+
+footer p {
+    font-size: 16px;
+    word-spacing: 5px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  
+  header {
+    height: 550px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  
+
+  .head_logo {
+    height: 300px;
+    background-size: contain;
+  }
+
+  .about_sect {
+    width: 100%;
+  }
+
+  .about_details {
+    border-top: 3px solid #f5f5f5;
+  }
+
+  .pro_img {
+  width: 200px;
+  height: 200px;
+  }
+
+  .work {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .work_container {
+  max-width: 418px;
+}
+
+  .work_example {
+  width: 100%;
+  background: #444;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.work_in_container {
+  width: 100%;
+  
+}
+
+.work_slider {
+  margin-left: 0px;
+}
+
+.con_sect {
+  width: 100%;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.social_btns {
+  margin: 5px;
+}
+
+}
+
+@media screen and (orientation:landscape) and (max-width: 700px) { 
+  .work_example {
+  width: 50%;
+  }
+}
