@@ -206,6 +206,7 @@ header {
   width: 100%;
   background: #333;      
   float: left;
+  padding-bottom: 80px;
 }
 
 #work h2 {
@@ -238,15 +239,11 @@ box-shadow: 0px 9px 18px -10px rgba(8,8,8,1);
 }
 
 #work1 {
-  background-image: url('../img/work1.png');
+  background-image: url('../img/work1.jpg');
 }
 
 #work2 {
-  background-image: url('../img/work2.jpg');
-}
-
-#work3 {
-  background-image: url('../img/work3.jpg');
+  background-image: url('../img/work2.png');
 }
 
 
@@ -295,13 +292,13 @@ box-shadow: 0px 9px 18px -10px rgba(8,8,8,1);
 }
 
 #contact_sct h2 {
-  padding-bottom: 80px;
   color: #f5f5f5;
 }
 
 .contact_container {
   width: 100%;
   text-align: center;
+  background-color: #2D1C3B;
 }
 
 .contact_container a {
@@ -320,19 +317,8 @@ box-shadow: 0px 9px 18px -10px rgba(8,8,8,1);
   margin: 5%;
 }
 
-.con_sect {
-  width: 50%;
-  float: left;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 300;
-  color: #f5f5f5;
-  background: rgba(45, 28, 59, 0.9);
-  line-height: 140px;
-}
-
 footer {
-  background: #2D1C3B; 
+  background: #111; 
   color: #f5f5f5;
   width: 100%;
   text-align: center;
