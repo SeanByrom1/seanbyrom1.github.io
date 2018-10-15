@@ -1,0 +1,285 @@
+* {
+    padding: 0px;
+    margin: 0 auto;
+}
+
+body {
+    background: red;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    width: 93%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    float: left;
+}
+
+/* NAVAGATION ############################################## */
+
+nav {
+    width: 100%;
+    background-color: #f5f5f5;
+    float: left;
+    position: fixed;
+    -webkit-box-shadow: 2px 10px 17px -7px rgba(0,0,0,0.56);
+-moz-box-shadow: 2px 10px 17px -7px rgba(0,0,0,0.56);
+box-shadow: 2px 10px 17px -7px rgba(0,0,0,0.56);
+}
+
+.logo {
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav ul a {
+    width: 100%;
+    background: #f5f5f5;
+    color: #131313;
+    padding: 10px 20px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    box-sizing: border-box;
+    
+}
+
+nav ul .navlink:hover {
+    background: #888;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+}
+
+nav ul a li{
+    display: inline-block;
+}
+
+#menu-toggle {
+    width: 100%;
+    border: none;
+    background: #131313;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.navlink {
+    display: none;
+}
+
+/* HEADER ###############################################*/
+
+.intro-head {
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/headtaxi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    color: #f5f5f5;
+}
+
+.intro-head h1 {
+    margin-top: 170px;
+}
+
+.intro-head p {
+    font-size: .925em;
+}
+
+.head-btn {
+    padding: 15px 45px;
+    margin-top: 30px;
+    display: block;
+    float: left;
+    background-color: #f5f5f5;
+    text-decoration: none; 
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+}
+
+.head-btn:hover {
+    background-color: #888;
+}
+
+.vehicle-button {
+    padding: 10px 25px;
+    margin-top: 30px;
+    display: block;
+    float: left;
+    background-color: #f5f5f5;
+    text-decoration: none; 
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+}
+
+.vehicle-button:hover {
+    background-color: #888;
+}
+
+/* About ######################################### */
+
+h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#aboutus {
+    background-color: #f5f5f5;
+}
+
+#aboutus p{
+    width: 100%;
+    text-indent: 40px;
+    font-size: .925em;
+    max-width: 800px;
+}
+
+.vehicle-container {
+    width: 100%;
+    background-color: #E8E8E8;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#vehicalsp {
+    width: 100%;
+    text-align: center;
+    font-size: .925em;
+    margin-bottom: 100px;
+}
+
+.vehicle-pic {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    float: left;
+}
+
+#car {
+    background-image: url('../img/car.jpg');
+}
+
+.vehicle-info {
+    float: left;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.vdesp {
+    font-size: .9em;
+    text-align: justify;
+}
+
+h3 {
+    border-bottom: 1px solid blue;
+    margin-bottom: 25px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.social, .contact {
+    width: 100%;
+}
+
+.contact {
+    float: left;
+}
+
+.social {
+    float: right;
+}
+
+.social-btn a {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    font-size: 28px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 48px;
+    float: right;
+    margin: 10px;
+    color: #f5f5f5;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+}
+
+.social-btn a:hover {
+    background-color: lightgreen;
+    font-size: 42px;
+    
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
+
+
+
+@media screen and (min-width: 700px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .logo {
+        margin: 0px 10px;
+    }
+
+    nav ul a {
+        width: auto;
+        padding: 30px 40px;
+    }
+
+    #menu-toggle {
+       display: none;
+    }
+
+    .navlink {
+        display: block;
+    }
+
+    .intro-head {
+        height: 900px;
+        background-attachment: fixed;
+    }
+
+    .intro-head h1 {
+        margin-top: 300px;
+        font-size: 4em;
+    }
+    .vehicle-max {
+        max-width: 1300px;
+    }
+    
+    .vehicle-pic {
+        width: 60%;
+        height: 400px;
+        background-size: cover;
+        float: left;
+    }
+
+    .vehicle-info {
+        float: right;
+        width: 40%;
+    }
+
+    .social, .contact {
+    width: 50%;
+    }
+
+}

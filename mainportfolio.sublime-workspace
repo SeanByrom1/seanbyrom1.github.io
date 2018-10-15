@@ -1,0 +1,518 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"awesome",
+				"awesome_classes"
+			],
+			[
+				"sbcu",
+				"sbcustom_setup"
+			],
+			[
+				"add",
+				"add_action"
+			],
+			[
+				"sb",
+				"sbcustomTheme"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"if",
+				"if\tif"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"word",
+				"word-spacing"
+			],
+			[
+				"nav",
+				"navDisMode"
+			],
+			[
+				"main",
+				"mainnav"
+			],
+			[
+				"t",
+				"toggleMenu"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"completed",
+				"completedAt"
+			],
+			[
+				"ap",
+				"fs.appendFile(path, data, options, callback);"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"node",
+				"node.https.get\tSnippet: HTTPS Get"
+			],
+			[
+				"fsw",
+				"fs.writeFile(path, data, options, callback);"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "showcase/bootstraptemp/index.html",
+			"settings":
+			{
+				"buffer_size": 7201,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "showcase/bootstraptemp/about.html",
+			"settings":
+			{
+				"buffer_size": 4480,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "showcase/bootstraptemp/contact.html",
+			"settings":
+			{
+				"buffer_size": 3901,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 338.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/nav",
+		"/C/xampp/htdocs/nav/showcase",
+		"/C/xampp/htdocs/nav/showcase/bootstraptemp"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/nav/showcase/product/index.html",
+		"/C/xampp/htdocs/nav/showcase/product/products.html",
+		"/C/xampp/htdocs/nav/showcase/product/about.html",
+		"/C/xampp/htdocs/nav/showcase/product/contact.html",
+		"/C/xampp/htdocs/nav/showcase/product/css/styles.css",
+		"/C/xampp/htdocs/nav/showcase/resturant/img/.gitignore",
+		"/C/xampp/htdocs/nav/index.html",
+		"/C/xampp/htdocs/nav/css/style.css",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/footer.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/header.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/functions.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/js/sbcustomTheme.js",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/css/sbcustomTheme.css",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/page-notitle.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/page-4.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/index.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/style.css",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomTheme/page-about-page.php",
+		"/C/Users/Sean/AppData/Local/Temp/Temp1_watertown.zip/watertown/functions.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/twentyseventeen/index.php",
+		"/C/xampp/htdocs/mywp/wp-activate.php",
+		"/C/xampp/htdocs/mywp/wp-cron.php",
+		"/C/xampp/htdocs/mywp/index.php",
+		"/C/xampp/htdocs/mywp/wp-content/index.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/index.php",
+		"/C/xampp/htdocs/mywp/wp-includes/post.php",
+		"/C/xampp/htdocs/mywp/wp-includes/wp-db.php",
+		"/C/Users/Sean/AppData/Local/Temp/Temp1_watertown.zip/watertown/style.css",
+		"/C/xampp/htdocs/mywp/wp-content/themes/sbcustomThem/style.css",
+		"/C/Users/Sean/Desktop/NodeSite/public/main2.js",
+		"/C/Users/Sean/Desktop/NodeSite/views/partials/footer.hbs",
+		"/C/Users/Sean/Desktop/NodeSite/public/main2.css",
+		"/C/Users/Sean/Desktop/NodeSite/views/products.hbs",
+		"/C/Users/Sean/Desktop/NodeSite/views/contact.hbs",
+		"/C/Users/Sean/Desktop/NodeSite/views/about.hbs",
+		"/C/Users/Sean/Desktop/NodeSite/views/partials/mainnav.hbs",
+		"/C/Users/Sean/Desktop/NodeSite/views/home.hbs",
+		"/C/Users/Sean/Desktop/NodeSite/server.js",
+		"/C/xampp/htdocs/mywp/wp-config.php",
+		"/C/xampp/htdocs/mywp/wp-content/themes/twentyseventeen/footer.php",
+		"/C/Users/Sean/Desktop/NodeSite/public/main.js",
+		"/C/Users/Sean/Desktop/NodeSite/public/main.css",
+		"/C/Users/Sean/Desktop/NodeSite/.gitignore",
+		"/C/Users/Sean/Desktop/NodeSite/public/normalize.css",
+		"/C/Users/Sean/Desktop/node-web-server/server.js",
+		"/C/Users/Sean/Desktop/NodeSite/views/.gitignore",
+		"/C/Users/Sean/Desktop/node-web-server/views/partials/footer.hbs",
+		"/C/Users/Sean/Desktop/NodeSite/views/about.hbs.mustache",
+		"/C/Users/Sean/Desktop/node-web-server/views/home.hbs",
+		"/C/Users/Sean/Desktop/node-web-server/package.json",
+		"/C/Users/Sean/Desktop/node-tests/utils/utils.test.js",
+		"/C/Users/Sean/Desktop/node-tests/utils/utils.js",
+		"/C/Users/Sean/Desktop/node-web-server/node_modules/handlebars/dist/handlebars.js",
+		"/C/Users/Sean/Desktop/weather-app/app.js",
+		"/C/Users/Sean/Desktop/weather-app/playground/promise.js",
+		"/C/Users/Sean/Desktop/weather-app/playground/promise-3.js",
+		"/C/Users/Sean/Desktop/weather-app/playground/promise-2.js",
+		"/C/Users/Sean/Desktop/weather-app/geocode/geocode.js",
+		"/C/Users/Sean/Desktop/weather-app/app-promise.js",
+		"/C/Users/Sean/Desktop/weather-app/playground/async-basics.js",
+		"/C/Users/Sean/Desktop/repl-test.js",
+		"/C/Users/Sean/Documents/notes-node/notes.js",
+		"/C/Users/Sean/Documents/notes-node/app.js",
+		"/C/Users/Sean/Desktop/node-todo-api/server/db/mongoose.js",
+		"/C/Users/Sean/Desktop/node-todo-api/server/models/user.js",
+		"/C/Users/Sean/Desktop/node-todo-api/server/models/todo.js",
+		"/C/Users/Sean/Desktop/node-todo-api/server/tests/server.test.js",
+		"/C/Users/Sean/Desktop/node-todo-api/playground/mongoose-queries.js",
+		"/C/Users/Sean/Desktop/node-todo-api/server/server.js",
+		"/C/Users/Sean/Desktop/node-todo-api/package.json",
+		"/C/Users/Sean/Desktop/node-tests/package.json",
+		"/C/Users/Sean/Desktop/node-todo-api/playground/mongodb-update.js",
+		"/C/Users/Sean/Desktop/node-todo-api/playground/mongodb-delete.js",
+		"/C/Users/Sean/Desktop/node-todo-api/playground/mongodb-find.js",
+		"/C/Users/Sean/Desktop/node-todo-api/playground/mongodb-connect.js",
+		"/C/Users/Sean/Desktop/node-todo-api/.gitignore",
+		"/C/Users/Sean/Desktop/node-todo-api/mongodb-connect.js",
+		"/C/Users/Sean/Desktop/node-tests/spies/app.js",
+		"/C/Users/Sean/Desktop/node-tests/spies/app.test.js",
+		"/C/Users/Sean/Desktop/node-tests/spies/db.js",
+		"/C/Users/Sean/Desktop/node-tests/server/server.js",
+		"/C/Users/Sean/Desktop/node-tests/server/server.test.js",
+		"/C/Users/Sean/Desktop/node-web-server/public/help.html",
+		"/C/Users/Sean/Desktop/node-web-server/views/about.hbs",
+		"/C/Users/Sean/Desktop/node-web-server/views/partials/header.hbs",
+		"/C/Users/Sean/Desktop/node-web-server/server.log",
+		"/C/Users/Sean/Desktop/node-web-server/views/maintenance.hbs",
+		"/C/Users/Sean/Desktop/node-web-server/.gitignore",
+		"/C/Users/Sean/Desktop/node-web-server/views/projects.hbs"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Include"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "showcase/bootstraptemp/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6823,
+								6823
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2691.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "showcase/bootstraptemp/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4131,
+								4131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2070.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "showcase/bootstraptemp/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3552,
+								3476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1863.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 128.0
+	},
+	"pinned_build_system": "",
+	"project": "mainportfolio.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

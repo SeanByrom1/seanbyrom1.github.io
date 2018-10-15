@@ -1,0 +1,268 @@
+* {
+  padding: 0px;
+  margin: 0 auto; }
+
+body {
+  background: #f8f8f8; }
+
+.wrapper {
+  width: 85%; }
+
+.clear {
+  clear: both; }
+
+nav {
+  border-bottom: 4px solid #1E48AA;
+  background: #f8f8f8;
+  float: left;
+  width: 100%;
+  position: fixed;
+  z-index: 100; }
+  nav #navlogo {
+    width: 100%;
+    height: 60px;
+    background: url("../img/panlogo.png") no-repeat center center;
+    background-size: contain; }
+  nav ul {
+    text-align: center; }
+    nav ul a {
+      line-height: 60px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #1E48AA;
+      font-size: 14px; }
+      nav ul a:hover {
+        background: #e9e9e9; }
+      nav ul a li {
+        list-style-type: none; }
+  nav #main_nav {
+    display: none; }
+  nav .nav_toggle {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #1E48AA; }
+
+#intro {
+  margin-top: 60px;
+  float: left;
+  height: 630px;
+  width: 100%;
+  background: url("../img/intro.jpg") center center;
+  background-attachment: fixed;
+  background-size: cover; }
+  #intro #intro_container {
+    max-width: 900px; }
+    #intro #intro_container h1 {
+      text-align: center;
+      color: #f8f8f8; }
+    #intro #intro_container a {
+      text-decoration: none;
+      color: #f8f8f8;
+      padding: 20px 30px;
+      float: right;
+      background-color: #1E48AA;
+      margin-top: 50px;
+      -moz-border-radius: 20%;
+      -webkit-border-radius: 20%;
+      border-radius: 20%;
+      border: 3px solid #f8f8f8; }
+      #intro #intro_container a:hover {
+        background: #325cbe; }
+
+#aboutintro {
+  background: #1E48AA;
+  text-align: center;
+  float: left;
+  width: 100%; }
+  #aboutintro h3 {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0px;
+    color: #f8f8f8; }
+  #aboutintro a {
+    text-decoration: none;
+    color: #1E48AA;
+    padding: 20px 30px;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    border: 3px solid #1E48AA;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    border-radius: 20%; }
+    #aboutintro a:hover {
+      background: #e4e4e4; }
+
+#location {
+  float: left;
+  padding: 100px 0px;
+  width: 100%; }
+  #location h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; }
+  #location #hours {
+    text-align: center;
+    margin-bottom: 80px; }
+
+footer {
+  border-top: 4px solid black;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  background: #f8f8f8; }
+  footer #footlinks {
+    font-weight: bold;
+    color: #121212;
+    width: 50%;
+    float: left; }
+    footer #footlinks a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      color: #121212; }
+      footer #footlinks a:hover {
+        color: #1E48AA; }
+  footer #callus {
+    float: right;
+    text-align: center;
+    margin-left: 5%; }
+  footer .social_container {
+    float: left;
+    line-height: 40px;
+    margin-top: 10px;
+    width: 150px; }
+    footer .social_container .icon_block {
+      float: right;
+      height: 40px;
+      width: 40px;
+      background: #121212;
+      color: #f8f8f8;
+      text-align: center; }
+      footer .social_container .icon_block:hover {
+        background: #1E48AA; }
+  footer #credit {
+    width: 100%;
+    text-align: center; }
+
+/* About us Page 
+
+
+*/
+#aboutus {
+  margin-top: 150px;
+  float: left;
+  width: 100%; }
+  #aboutus h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 36px; }
+  #aboutus p {
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: justify;
+    text-indent: 60px; }
+  #aboutus a {
+    text-decoration: none;
+    color: #1E48AA;
+    padding: 20px 30px;
+    background-color: #f8f8f8;
+    border: 3px solid #1E48AA;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    border-radius: 20%; }
+    #aboutus a:hover {
+      background: #e4e4e4; }
+
+/*
+
+CONTACT PAGE
+
+*/
+#contactus {
+  margin-top: 150px;
+  margin-bottom: 80px;
+  float: left;
+  width: 100%;
+  text-align: center; }
+  #contactus h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 36px; }
+  #contactus a {
+    margin-top: 80px;
+    text-decoration: none;
+    color: #1E48AA;
+    padding: 20px 30px;
+    background-color: #f8f8f8;
+    border: 3px solid #1E48AA;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    border-radius: 20%; }
+    #contactus a:hover {
+      background: #e4e4e4; }
+
+/*
+
+FOR MOBILE DEVICES
+
+*/
+@media only screen and (min-width: 700px) {
+  nav #navlogo {
+    width: 200px;
+    float: left; }
+  nav ul a {
+    padding: 0px 20px;
+    float: left; }
+    nav ul a li {
+      float: left; }
+  nav #main_nav {
+    display: block; }
+  nav .nav_toggle {
+    display: none; }
+
+  #intro #intro_container {
+    margin-top: 140px; }
+    #intro #intro_container h1 {
+      float: left; }
+
+  #map_container {
+    width: 600px; } }
+@media only screen and (max-width: 700px) {
+  nav ul a {
+    line-height: 28px; }
+
+  #intro {
+    height: 394px;
+    background-size: initial;
+    background-attachment: initial;
+    background: url("../img/intro_700.jpg") center center no-repeat; }
+    #intro #intro_container {
+      margin-top: 50px; }
+
+  #map_container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden; }
+    #map_container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important; }
+
+  footer #footlinks, footer #callus {
+    width: 100%; }
+  footer #footlinks {
+    text-align: center; }
+  footer #callus {
+    padding: 20px 0px; }
+  footer .social_container {
+    float: none; }
+  footer #credit {
+    margin-top: 20px; } }
+
+/*# sourceMappingURL=styles.css.map */
